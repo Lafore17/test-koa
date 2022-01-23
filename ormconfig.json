@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Dima7360684",
+  "database": "my-first-postgres-db",
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"]
+}

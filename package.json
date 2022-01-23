@@ -1,0 +1,36 @@
+{
+  "name": "test-koa",
+  "version": "1.0.0",
+  "description": "Test Koa project",
+  "main": "./src/index.js",
+  "author": "Lafore",
+  "license": "MIT",
+  "homepage": "https://github.com/Lafore17/test-koa#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lafore17/test-koa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lafore17/test-koa/issues"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --no-notify src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "14.2.0",
+    "http-status-codes": "2.2.0",
+    "koa": "2.13.3",
+    "koa-router": "10.1.1",
+    "pg": "8.7.1",
+    "typeorm": "0.2.41",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/http-status-codes": "1.2.0",
+    "@types/koa": "2.13.4",
+    "@types/koa-router": "7.4.4",
+    "@types/pg": "8.6.4",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.5.5"
+  }
+}
