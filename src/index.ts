@@ -30,7 +30,7 @@ createConnection({
   .catch((error) => console.log(error));
 
 router.get("/getNames", (ctx) => {
-  ctx.body = { a: 1, b: 2, c: "2" };
+  ctx.body = { a: 1 };
 });
 
 app.use(router.routes());
